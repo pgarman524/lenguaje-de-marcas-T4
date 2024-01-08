@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Bdsms [
-    <!ELEMENT Bdsms (sms*)>
-    <!ELEMENT sms (telefono, fecha, hora, mensaje)>
-    <!ELEMENT telefono (#PCDATA)>
-    <!ELEMENT fecha (#PCDATA)>
-    <!ELEMENT hora (#PCDATA)>
-    <!ELEMENT mensaje (#PCDATA)>
-]>
+<!DOCTYPE Bdsms SYSTEM "BDsms.dtd">
 <Bdsms>
     <sms>
         <telefono>955 55 66 55</telefono>
