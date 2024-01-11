@@ -1,0 +1,9 @@
+<!ELEMENT peliculas (pelicula*)>
+<!ELEMENT pelicula (director*, titulo, fechaPublicacion, duracion)>
+<!ELEMENT director (apellido1, apellido2, nombre)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT fechaPublicacion (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT apellido1 (#PCDATA)>
+<!ELEMENT apellido2 (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
