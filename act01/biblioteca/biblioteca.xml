@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE libros SYSTEM "libreria.dtd">
+<!DOCTYPE libros SYSTEM "biblioteca.dtd">
 <libros>
 <libro>
 
-    <autores>
         <autor>
             <apellido1>Follet</apellido1>
             <apellido2></apellido2>
             <nombre>Ken</nombre>
         </autor>
-        <autor>
-            <apellido1></apellido1>
-            <apellido2></apellido2>
-            <nombre></nombre>
-        </autor>
-    </autores>
+   
     <titulo>La Armadura de la Luz</titulo>
     <editorial>Plaza RJ Janés</editorial>
     <fechaPublicacion>26/09/2023</fechaPublicacion>
@@ -24,18 +18,13 @@
 
 <libro>
 
-    <autores>
+   
         <autor>
             <apellido1>García</apellido1>
             <apellido2>Márquez</apellido2>
             <nombre>Gabriel</nombre>
         </autor>
-        <autor>
-            <apellido1></apellido1>
-            <apellido2></apellido2>
-            <nombre></nombre>
-        </autor>
-    </autores>
+
     <titulo>Cien años de soledad</titulo>
     <editorial>Debolsillo</editorial>
     <fechaPublicacion>24/01/2003</fechaPublicacion>
@@ -44,18 +33,13 @@
 </libro>
 <libro>
 
-    <autores>
+
         <autor>
             <apellido1>Uderzo</apellido1>
             <apellido2></apellido2>
             <nombre>Albert</nombre>
         </autor>
-        <autor>
-            <apellido1>Didier</apellido1>
-            <apellido2></apellido2>
-            <nombre>Conrad</nombre>
-        </autor>
-    </autores>
+
     <titulo>Asterix el libro Blanco</titulo>
     <editorial>Salvat</editorial>
     <fechaPublicacion>26/10/2023</fechaPublicacion>
@@ -64,18 +48,13 @@
 </libro>
 <libro>
 
-    <autores>
+ 
         <autor>
             <apellido1>Rooney</apellido1>
             <apellido2></apellido2>
             <nombre>Sally</nombre>
         </autor>
-        <autor>
-            <apellido1></apellido1>
-            <apellido2></apellido2>
-            <nombre></nombre>
-        </autor>
-    </autores>
+
     <titulo>Normal People</titulo>
     <editorial>Faber and Faber</editorial>
     <fechaPublicacion>23/05/2019</fechaPublicacion>
@@ -84,18 +63,14 @@
 </libro>
 <libro>
 
-    <autores>
+
         <autor>
             <apellido1>Perez</apellido1>
             <apellido2>Reberte</apellido2>
             <nombre>Arturo</nombre>
         </autor>
-        <autor>
-            <apellido1></apellido1>
-            <apellido2></apellido2>
-            <nombre></nombre>
-        </autor>
-    </autores>
+
+ 
     <titulo>Limpieza de Sangre</titulo>
     <editorial>Debolsillo</editorial>
     <fechaPublicacion>22/09/2016</fechaPublicacion>
@@ -104,18 +79,13 @@
 </libro>
 <libro>
 
-    <autores>
+
         <autor>
             <apellido1>Gratacós</apellido1>
             <apellido2></apellido2>
             <nombre>Tony</nombre>
         </autor>
-        <autor>
-            <apellido1></apellido1>
-            <apellido2></apellido2>
-            <nombre></nombre>
-        </autor>
-    </autores>
+
     <titulo>Nadie lo sabe</titulo>
     <editorial>Destino</editorial>
     <fechaPublicacion>02/03/2022</fechaPublicacion>
@@ -124,18 +94,13 @@
 </libro>
 <libro>
 
-    <autores>
+ 
         <autor>
             <apellido1>Navarro</apellido1>
             <apellido2></apellido2>
             <nombre>Julia</nombre>
         </autor>
-        <autor>
-            <apellido1></apellido1>
-            <apellido2></apellido2>
-            <nombre></nombre>
-        </autor>
-    </autores>
+
     <titulo>Dispara, yo ya estoy muerto</titulo>
     <editorial>Plaza y Janes Editores</editorial>
     <fechaPublicacion>29/08/2013</fechaPublicacion>
@@ -144,18 +109,13 @@
 </libro>
 <libro>
 
-    <autores>
+
         <autor>
             <apellido1>Morenos</apellido1>
             <apellido2>Ríos</apellido2>
             <nombre>Moreno</nombre>
         </autor>
-        <autor>
-            <apellido1></apellido1>
-            <apellido2></apellido2>
-            <nombre></nombre>
-        </autor>
-    </autores>
+
     <titulo>En el camping del Gran Fogón </titulo>
     <editorial>ANTON PIÑON</editorial>
     <fechaPublicacion>14/09/2023</fechaPublicacion>
@@ -164,18 +124,13 @@
 </libro>
 <libro>
 
-    <autores>
+
         <autor>
             <apellido1>Brown</apellido1>
             <apellido2></apellido2>
             <nombre>Sarah</nombre>
         </autor>
-        <autor>
-            <apellido1></apellido1>
-            <apellido2></apellido2>
-            <nombre></nombre>
-        </autor>
-    </autores>
+
     <titulo>El lenguaje seecreto de los gatos</titulo>
     <editorial>geoPlaneta Ciencia</editorial>
     <fechaPublicacion>25/10/2023</fechaPublicacion>
@@ -184,18 +139,13 @@
 </libro>
 <libro>
 
-    <autores>
+
         <autor>
             <apellido1>Sanderson</apellido1>
             <apellido2></apellido2>
             <nombre>Brandon</nombre>
         </autor>
-        <autor>
-            <apellido1></apellido1>
-            <apellido2></apellido2>
-            <nombre></nombre>
-        </autor>
-    </autores>
+
     <titulo>El hoombre Iluminado</titulo>
     <editorial>Nova</editorial>
     <fechaPublicacion>19/10/2023</fechaPublicacion>
@@ -204,18 +154,13 @@
 </libro>
 <libro>
 
-    <autores>
+
         <autor>
             <apellido1>Mesa</apellido1>
             <apellido2></apellido2>
             <nombre>Sara</nombre>
         </autor>
-        <autor>
-            <apellido1></apellido1>
-            <apellido2></apellido2>
-            <nombre></nombre>
-        </autor>
-    </autores>
+
     <titulo>Un amor</titulo>
     <editorial>Anagrama</editorial>
     <fechaPublicacion>02/09/2020</fechaPublicacion>
@@ -224,18 +169,13 @@
 </libro>
 <libro>
 
-    <autores>
+
         <autor>
             <apellido1>Clear</apellido1>
             <apellido2></apellido2>
             <nombre>James</nombre>
         </autor>
-        <autor>
-            <apellido1></apellido1>
-            <apellido2></apellido2>
-            <nombre></nombre>
-        </autor>
-    </autores>
+
     <titulo>Hábitos atómicos</titulo>
     <editorial>Diana</editorial>
     <fechaPublicacion>08/09/2020</fechaPublicacion>

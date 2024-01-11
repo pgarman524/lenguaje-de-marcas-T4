@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mensajes>
+    <m_pablo>
+        <tlf>123456789</tlf>
+        <fecha>11/01/2024</fecha>
+        <hora>12:00</hora>
+        <contenido>¿Qué hay que hacer para lenguaje de marcas?</contenido>
+    </m_pablo>
+    <m_roberto>
+        <tlf>987654321</tlf>
+        <fecha>12/01/2024</fecha>
+        <hora>9:00</hora>
+        <contenido>Bro, me quedé dormido. No tengo ni idea</contenido>
+    </m_roberto>
+    <m_pablo>
+        <tlf>123456789</tlf>
+        <fecha>11/01/2024</fecha>
+        <hora>12:00</hora>
+        <contenido>manda webs...</contenido>
+    </m_pablo>
+</mensajes>

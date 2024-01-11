@@ -1,6 +1,0 @@
-<!ELEMENT libros (libro*)>
-<!ELEMENT libro (autores+, titulo, editorial, fechaPublicacion, ISBN)>
-<!ELEMENT titulo (#PCDATA)>
-<!ELEMENT editorial (#PCDATA)>
-<!ELEMENT fechaPublicacion (#PCDATA)>
-<!ELEMENT ISBN (#PCDATA)>
