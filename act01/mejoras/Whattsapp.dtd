@@ -1,0 +1,7 @@
+<!ELEMENT mensajes (m_pablo*, m_roberto*,m_pablo*)>
+<!ELEMENT m_pablo (tlf,fecha,hora,contenido)>
+<!ELEMENT m_roberto (tlf,fecha,hora,contenido)>
+<!ELEMENT tlf (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT contenido (#PCDATA)>
