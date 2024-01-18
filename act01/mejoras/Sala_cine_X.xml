@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<peliculas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="peliculas.xsd">
+    <pelicula>
+        <director>
+            <apellido1>King</apellido1>
+            <apellido2></apellido2>
+            <nombre>Paul</nombre>
+        </director>
+    <titulo>Wonka</titulo>
+    <fechaPublicacion>06/12/2023</fechaPublicacion>
+    <duracion>1h57min</duracion>
+    </pelicula>
+
+    <pelicula>
+        <director>
+            <apellido1>Wan</apellido1>
+            <apellido2></apellido2>
+            <nombre>James</nombre>
+        </director>
+    <titulo>Aquaman y el reino perdido</titulo>
+    <fechaPublicacion>20/12/2023</fechaPublicacion>
+    <duracion>2h04min</duracion>
+    </pelicula>
+
+    <pelicula>
+        <director>
+            <apellido1>Fernández</apellido1>
+            <apellido2>Armero</apellido2>
+            <nombre>Álvaro</nombre>
+        </director>
+    <titulo>Ocho apellidos marroquís</titulo>
+    <fechaPublicacion>01/12/2023</fechaPublicacion>
+    <duracion>1h35min</duracion>
+    </pelicula>
+
+    <pelicula>
+        <director>
+            <apellido1>Renner</apellido1>
+            <apellido2></apellido2>
+            <nombre>Benjamin</nombre>
+        </director>
+    <titulo>Migración. Un viaje patas arriba</titulo>
+    <fechaPublicacion>22/12/2023</fechaPublicacion>
+    <duracion>1h22min</duracion>
+    </pelicula>
+
+    <pelicula>
+        <director>
+            <apellido1>Scott</apellido1>
+            <apellido2></apellido2>
+            <nombre>Ridley</nombre>
+        </director>
+    <titulo>Napoleón</titulo>
+    <fechaPublicacion>24/11/2023</fechaPublicacion>
+    <duracion>2h38min</duracion>
+    </pelicula>
+
+</peliculas>
