@@ -1,4 +1,4 @@
-<!ELEMENT Mueble (Mueble*)>
+<!ELEMENT Mueble (mueble*)>
 <!ELEMENT mueble (cod_mueble, tipo, modelo, num_almacen, dificultad_ensamblaje, materiales, lugar_uso)>
 <!ELEMENT cod_mueble (#PCDATA)>
 <!ELEMENT tipo (#PCDATA)>
