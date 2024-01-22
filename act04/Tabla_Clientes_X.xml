@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Tabla_clientes.xsd">
+    <sede>
+        <cod_sede id= "0034"></cod_sede>
+        <direccion1>Calle falsa 123</direccion1>
+        <direccion2>Calle no tan falsa 456</direccion2>
+        <empleado ID = "AAA-518"></empleado>
+        <fecha>12/02/24</fecha>
+   
+    <clientela codigo= "FGS-234">
+        <descripcion>solvente</descripcion>
+        <numero>3</numero>
+        <vivienda ID="001">
+            <coste>100000</coste>
+            <resumen>Casa antigua</resumen>
+            <plazo>45</plazo>
+        </vivienda>
+        <vivienda ID="002">
+            <coste>85000</coste>
+            <resumen>Casa antigua para reformar</resumen>
+            <plazo>35</plazo>
+        </vivienda>
+        <vivienda ID="003">
+            <coste>325000</coste>
+            <resumen>Casa reformada</resumen>
+            <plazo>70</plazo>
+        </vivienda>
+    </clientela>
+
+    <clientela codigo= "SDE-264">
+        <descripcion>insolvente</descripcion>
+        <numero>1</numero>
+        <vivienda ID="002">
+            <coste>75000</coste>
+            <resumen>Casa antigua sin reformar</resumen>
+            <plazo>68</plazo>
+        </vivienda>        
+    </clientela>
+     </sede>
+
+     <sede>
+        <cod_sede id= "0035"></cod_sede>
+        <direccion1>Calle falsa 123</direccion1>
+        <direccion2>Calle no tan falsa 456</direccion2>
+        <empleado ID = "ABA-210"></empleado>
+        <fecha>16/05/14</fecha>
+
+        <clientela codigo= "ERE-678">
+            <descripcion>solvente</descripcion>
+            <numero>1</numero>
+            <vivienda ID="003">
+                <coste>95000</coste>
+                <resumen>Casa antigua sin reformar</resumen>
+                <plazo>98</plazo>
+            </vivienda>        
+        </clientela>
+     </sede>
+
+</Clientes>
