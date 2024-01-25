@@ -10,7 +10,11 @@
               <xs:element name="titulo" type="xs:string"/>
               <xs:element name="autor" type="xs:string"/>
               <xs:element name="disponible" type="xs:string"/>
-              <xs:element name="notas" type="xs:string" minOccurs="0"/>
+              <xs:choice>
+                <xs:element name="notas" type="xs:string" minOccurs="0"/>
+                <xs:element name="descripcion" type="xs:string" minOccurs="0"/>
+              </xs:choice>
+           
             </xs:sequence>
           </xs:complexType>
         </xs:element>

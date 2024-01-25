@@ -9,8 +9,10 @@
               <xs:element name="NIF" type="xs:string"/>
               <xs:element name="Resultado" type="xs:string"/>
               <xs:element name="Observaciones" type="xs:string" minOccurs="0"/>
-              <xs:element name="IP" type="xs:string" minOccurs="0"/>
-              <xs:element name="MAC" type="xs:string" minOccurs="0"/>
+              <xs:choice>
+                <xs:element name="IP" type="xs:string" minOccurs="0"/>
+                <xs:element name="MAC" type="xs:string" minOccurs="0"/>
+              </xs:choice>          
             </xs:sequence>
           </xs:complexType>
         </xs:element>

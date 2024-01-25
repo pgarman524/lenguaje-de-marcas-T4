@@ -13,6 +13,6 @@
         <titulo>Harry Potter</titulo>
         <autor>JK. Rowlin</autor>
         <disponible>sí</disponible>
-        <notas>Ta' perfe</notas>
+        <descripcion>Ta' perfe</descripcion>
     </libro>
 </Libreria>

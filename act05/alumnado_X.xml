@@ -6,13 +6,11 @@
         <Resultado>apto</Resultado>
         <Observaciones>Buen estudiante</Observaciones>
         <IP>192.168.1.1</IP>
-        <MAC>null</MAC>
     </Estudiante>
     <Estudiante>
         <NIF>23456789B</NIF>
         <Resultado>No apto</Resultado>
         <Observaciones>Mal estudiante</Observaciones>
-        <IP>195.245.1.1</IP>
         <MAC>00:11:22:33:44:55</MAC>
  
     </Estudiante>
