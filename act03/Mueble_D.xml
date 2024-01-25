@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Mueble SYSTEM "../act02/Mueble.dtd">
+
+<Mueble>
+    <mueble>
+        <cod_mueble>004.729.62</cod_mueble>
+        <tipo>sofas</tipo>
+        <modelo>BOLLSTANÄS</modelo>
+        <num_almacen>5700</num_almacen>
+        <dificultad_ensamblaje>easy</dificultad_ensamblaje>
+        <materiales>poliester</materiales>
+        <lugar_uso>salon</lugar_uso>
+
+    </mueble>
+
+
+</Mueble>

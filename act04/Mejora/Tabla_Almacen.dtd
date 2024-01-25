@@ -1,0 +1,18 @@
+<!ELEMENT Sede (Almacén*)>
+<!ELEMENT Almacén (cod_sede, direccion1, direccion2, gerente, fecha, Seccion*)>
+<!ELEMENT cod_sede EMPTY>
+<!ATTLIST cod_sede id CDATA #REQUIRED>
+<!ELEMENT direccion1 (#PCDATA)>
+<!ELEMENT direccion2 (#PCDATA)>
+<!ELEMENT gerente EMPTY>
+<!ATTLIST gerente ID CDATA #REQUIRED>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT Seccion (descripcion, numero, producto*)>
+<!ATTLIST Seccion codigo_cl CDATA #REQUIRED>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT producto (coste, resumen, plazo)>
+<!ATTLIST producto ID CDATA #REQUIRED>
+<!ELEMENT coste (#PCDATA)>
+<!ELEMENT resumen (#PCDATA)>
+<!ELEMENT plazo (#PCDATA)>

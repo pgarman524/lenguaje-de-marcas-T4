@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Sede SYSTEM "Tabla_Almacen.dtd">
+<Sede>
+    <Almacén>
+        <cod_sede id= "0033"></cod_sede>
+        <direccion1>Calle falsa 123</direccion1>
+        <direccion2></direccion2>
+        <gerente ID = "ASA-808"></gerente>
+        <fecha>12/02/24</fecha>
+
+        <Seccion codigo_cl= "ZSS-136">
+            <descripcion>Salón</descripcion>
+            <numero>2</numero>
+            <producto ID="001">
+                <coste>189</coste>
+                <resumen>KIVIK</resumen>
+                <plazo>12</plazo>
+            </producto>
+            <producto ID="002">
+                <coste>99.99</coste>
+                <resumen>STRANDMON</resumen>
+                <plazo>3</plazo>
+            </producto>
+
+        </Seccion>
+
+        <Seccion codigo_cl= "FGS-234">
+            <descripcion>Cocina</descripcion>
+            <numero>4</numero>
+            <producto ID="053">
+                <coste>405</coste>
+                <resumen>KNOXHULT</resumen>
+                <plazo>12</plazo>
+            </producto>
+            <producto ID="104">
+                <coste>59</coste>
+                <resumen>EKEDALEN</resumen>
+                <plazo>0</plazo>
+            </producto>
+            <producto ID="104">
+                <coste>59</coste>
+                <resumen>EKEDALEN</resumen>
+                <plazo>0</plazo>
+            </producto>
+            <producto ID="012">
+                <coste>69</coste>
+                <resumen>KNOXHULT</resumen>
+                <plazo>1</plazo>
+            </producto>
+        </Seccion>
+
+    </Almacén>
+
+
+    <Almacén>
+        <cod_sede id= "0045"></cod_sede>
+        <direccion1>Calle no tan falsa 123</direccion1>
+        <direccion2></direccion2>
+        <gerente ID = "CAS-128"></gerente>
+        <fecha>25/02/24</fecha>
+
+        <Seccion codigo_cl= "ZZZ-777">
+            <descripcion>Dormitorio</descripcion>
+            <numero>2</numero>
+            <producto ID="026">
+                <coste>586</coste>
+                <resumen>BRIMNES</resumen>
+                <plazo>0</plazo>
+            </producto>
+            <producto ID="089">
+                <coste>656.98</coste>
+                <resumen>SONGESAND</resumen>
+                <plazo>3</plazo>
+            </producto>
+        </Seccion>
+        </Almacén>
+</Sede>

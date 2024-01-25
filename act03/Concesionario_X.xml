@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Concesionario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Concesionario.xsd">
+    <concesionario>
+        <cod_coche>2511600956</cod_coche>
+        <marca>CITROEN</marca>
+        <modelo>C3 Aircross PureTech</modelo>
+        <matricula>567489120</matricula>
+        <potencia>110CV</potencia>
+        <plazas>5</plazas>
+        <num_puertas>4</num_puertas>
+    </concesionario>
+
+</Concesionario>
