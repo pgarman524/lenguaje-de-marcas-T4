@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Sede>
-    <Almacén>
-        <cod_sede id= "0033"></cod_sede>
+<Sede xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Tabla_Almacen.xsd">
+   
+    <Almacen ID ="025">
+        <cod_sede> 0033</cod_sede>
         <direccion1>Calle falsa 123</direccion1>
         <direccion2></direccion2>
-        <gerente ID = "ASA-808"></gerente>
+        <gerente> ASA-808 </gerente>
         <fecha>12/02/24</fecha>
 
         <Seccion codigo_cl= "ZSS-136">
@@ -48,14 +49,14 @@
             </producto>
         </Seccion>
 
-    </Almacén>
+    </Almacen>
 
 
-    <Almacén>
-        <cod_sede id= "0045"></cod_sede>
+    <Almacen ID = "045">
+        <cod_sede>0045</cod_sede>
         <direccion1>Calle no tan falsa 123</direccion1>
         <direccion2></direccion2>
-        <gerente ID = "CAS-128"></gerente>
+        <gerente>CAS-128</gerente>
         <fecha>25/02/24</fecha>
 
         <Seccion codigo_cl= "ZZZ-777">
@@ -72,5 +73,5 @@
                 <plazo>3</plazo>
             </producto>
         </Seccion>
-        </Almacén>
+        </Almacen>
 </Sede>

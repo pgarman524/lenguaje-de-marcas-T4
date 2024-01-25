@@ -1,0 +1,7 @@
+<!ELEMENT modulos (modulo*)>
+<!ELEMENT modulo (nombre, contenido)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT contenido (unidad*)>
+<!ELEMENT unidad (num, descripcion)>
+<!ELEMENT num (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>

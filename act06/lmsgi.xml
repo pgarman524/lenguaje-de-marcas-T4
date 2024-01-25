@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE modulos SYSTEM "lmsgi.dtd">
+<modulos>
+    <modulo>
+        <nombre>Lenguajes de Marcas y Sistemas de Gestión de Información</nombre>
+        <contenido>
+            <unidad>
+                <num>01</num>
+                <descripcion>Cosas varias</descripcion>
+            </unidad>
+            <unidad>
+                <num>02</num>
+                <descripcion>Va de sumar y restar</descripcion>
+            </unidad>
+        </contenido>
+    </modulo>
+    <modulo>
+        <nombre>Sistemas Informáticos</nombre>
+        <contenido>
+            <unidad>
+                <num>01</num>
+                <descripcion>Cosas varias</descripcion>
+            </unidad>
+            <unidad>
+                <num>02</num>
+                <descripcion>Va de sumar y restar</descripcion>
+            </unidad>
+        </contenido>
+    </modulo>
+    <modulo>
+        <nombre>Bases de Datos</nombre>
+        <contenido>
+            <unidad>
+                <num>01</num>
+                <descripcion>Cosas varias</descripcion>
+            </unidad>
+            <unidad>
+                <num>02</num>
+                <descripcion>Va de sumar y restar</descripcion>
+            </unidad>
+        </contenido>
+    </modulo>
+    <modulo>
+        <nombre>Programación</nombre>
+        <contenido>
+            <unidad>
+                <num>01</num>
+                <descripcion>Cosas varias</descripcion>
+            </unidad>
+            <unidad>
+                <num>02</num>
+                <descripcion>Va de sumar y restar</descripcion>
+            </unidad>
+        </contenido>
+    </modulo>
+    <modulo>
+        <nombre>Entornos de Desarrollo</nombre>
+        <contenido>
+            <unidad>
+                <num>01</num>
+                <descripcion>Cosas varias</descripcion>
+            </unidad>
+            <unidad>
+                <num>02</num>
+                <descripcion>Va de sumar y restar</descripcion>
+            </unidad>
+        </contenido>
+    </modulo>
+   
+    <modulo>
+        <nombre>Formación y Orientación Laboral</nombre>
+        <contenido>
+            <unidad>
+                <num>01</num>
+                <descripcion>Cosas varias</descripcion>
+            </unidad>
+            <unidad>
+                <num>02</num>
+                <descripcion>Va de sumar y restar</descripcion>
+            </unidad>
+        </contenido>
+    </modulo>
+ 
+</modulos>

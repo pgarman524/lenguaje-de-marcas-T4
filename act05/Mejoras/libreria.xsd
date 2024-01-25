@@ -1,0 +1,21 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+ <xs:element name="Libreria">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="libro" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ISBN" type="xs:string"/>
+              <xs:element name="titulo" type="xs:string"/>
+              <xs:element name="autor" type="xs:string"/>
+              <xs:element name="disponible" type="xs:string"/>
+              <xs:element name="notas" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+ </xs:element>
+
+</xs:schema>

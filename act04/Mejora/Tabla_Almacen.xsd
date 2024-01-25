@@ -3,7 +3,7 @@
  <xs:element name="Sede">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="Almacén" maxOccurs="unbounded">
+        <xs:element name="Almacen" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="cod_sede" type="xs:string"/>
@@ -31,7 +31,7 @@
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <xs:attribute name="id" type="xs:string" use="required"/>
+            <xs:attribute name="ID" type="xs:string" use="required"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>

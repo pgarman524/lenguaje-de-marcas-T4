@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libreria SYSTEM "libreria.dtd">
+<Libreria>
+    <libro>
+        <ISBN>1234567890</ISBN>
+        <titulo>EL Lazarillo de Tormes</titulo>
+        <autor>none</autor>
+        <disponible>no</disponible>
+        <notas>null</notas>
+    </libro>
+    <libro>
+        <ISBN>0987654321</ISBN>
+        <titulo>Harry Potter</titulo>
+        <autor>JK. Rowlin</autor>
+        <disponible>sí</disponible>
+        <notas>Ta' perfe</notas>
+    </libro>
+</Libreria>
