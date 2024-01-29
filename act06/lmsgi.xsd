@@ -1,25 +1,24 @@
-
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
- <xs:element name="modulos">
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="modulos">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="modulo" maxOccurs="unbounded">
+        <xs:element name="modulo" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="nombre" type="xs:string"/>
+              <xs:element type="xs:string" name="nombre"/>
               <xs:element name="contenido">
                 <xs:complexType>
-                 <xs:sequence>
-                    <xs:element name="unidad" maxOccurs="unbounded">
+                  <xs:sequence>
+                    <xs:element name="unidad" maxOccurs="unbounded" minOccurs="0">
                       <xs:complexType>
                         <xs:sequence>
-                          <xs:element name="num" type="xs:string"/>
-                          <xs:element name="descripcion" type="xs:string"/>
+                          <xs:element type="xs:byte" name="num"/>
+                          <xs:element type="xs:string" name="titulo"/>
+                          <xs:element type="xs:string" name="descripcion"/>
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
-                 </xs:sequence>
+                  </xs:sequence>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
@@ -27,6 +26,5 @@
         </xs:element>
       </xs:sequence>
     </xs:complexType>
- </xs:element>
-
+  </xs:element>
 </xs:schema>

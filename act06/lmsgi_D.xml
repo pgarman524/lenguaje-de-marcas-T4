@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE modulos SYSTEM "lmsgi.dtd">
+<modulos>
+    <modulo>
+        <nombre>Lenguajes de Marcas y Sistemas de Gestión de Información</nombre>
+        <contenido>
+            <unidad>
+                <num>01</num>
+                <titulo>Interpretación de lenguajes de marcas</titulo>
+                <descripcion>Esta unidad cubre la interpretación de los lenguajes de marcas, incluyendo la identificación de sus características principales y elementos. También se abordan las ventajas de estos lenguajes en el tratamiento de la información y su clasificación.</descripcion>
+            </unidad>
+            <unidad>
+                <num>02</num>
+                <titulo>Características del lenguaje XML</titulo>
+                <descripcion>En esta unidad, los estudiantes aprenden sobre las características propias del lenguaje XML, incluyendo la estructura de un documento XML y sus reglas sintácticas. También se discuten las ventajas que aportan los espacios de nombres.</descripcion>
+            </unidad>
+            <unidad>
+                <num>03</num>
+                <titulo>Conversión y adaptación de documentos XML</titulo>
+                <descripcion> Esta unidad cubre la conversión de documentos XML y las técnicas de transformación de estos documentos. También se abordan las especificaciones de conversión y la utilización de plantillas y herramientas de procesamiento.</descripcion>
+            </unidad>
+            <unidad>
+                <num>04</num>
+                <titulo>Gestión y almacenamiento de información en formatos XML</titulo>
+                <descripcion>En esta unidad, los estudiantes aprenden sobre los sistemas de almacenamiento de información en formato XML y las ventajas e inconvenientes de estos sistemas. También se discuten los sistemas gestores de bases de datos relacionales y documentos XML, así como los sistemas gestores de bases de datos nativas XML.</descripcion>
+            </unidad>
+        </contenido>
+    </modulo>
+    <modulo>
+        <nombre>Sistemas Informáticos</nombre>
+        <contenido>
+            <unidad>
+                <num>01</num>
+                <titulo>Hardware de un sistema informático</titulo>
+                <descripcion>Esta unidad cubre los componentes físicos de un ordenador actual, incluyendo la arquitectura hardware, los periféricos, las unidades de entrada/salida, y el montaje y puesta en marcha de un ordenador.</descripcion>
+            </unidad>
+            <unidad>
+                <num>02</num>
+                <titulo>Software de un sistema informático</titulo>
+                <descripcion>En esta unidad, los estudiantes aprenden sobre el software que se utiliza en un sistema informático, aunque no se proporcionan detalles específicos en la fuente proporcionada.</descripcion>
+            </unidad>
+            <unidad>
+                <num>03</num>
+                <titulo>Redes de ordenadores</titulo>
+                <descripcion>Esta unidad cubre las características de las redes de ordenadores, la arquitectura de red, las topologías de red y los modos de conexión, los componentes de una red informática, las redes inalámbricas 802.11, el direccionamiento IP, la seguridad, la configuración de routers, y los servicios de red.</descripcion>
+            </unidad>
+            <unidad>
+                <num>04</num>
+                <titulo>Administración básica de sistemas (GNU/Linux)</titulo>
+                <descripcion>En esta unidad, los estudiantes aprenden los fundamentos de la administración de sistemas en GNU/Linux.</descripcion>
+            </unidad>
+        </contenido>
+    </modulo>
+    <modulo>
+        <nombre>Bases de Datos</nombre>
+        <contenido>
+            <unidad>
+                <num>01</num>
+                <titulo>Interpretación del diseño lógico de bases de datos</titulo>
+                <descripcion>Esta unidad se enfoca en interpretar el diseño lógico de las bases de datos, analizando y cumpliendo las especificaciones relativas a su aplicación para gestionar bases de datos.</descripcion>
+            </unidad>
+            <unidad>
+                <num>02</num>
+                <titulo>Selección y uso de lenguajes, herramientas y librerías</titulo>
+                <descripcion> En esta unidad, los estudiantes aprenden a seleccionar y emplear lenguajes, herramientas y librerías, interpretando las especificaciones para desarrollar aplicaciones multiplataforma con acceso a bases de datos.</descripcion>
+            </unidad>
+            <unidad>
+                <num>03</num>
+                <titulo>Gestión de la información almacenada</titulo>
+                <descripcion>Esta unidad cubre la gestión de la información almacenada, planificando e implementando sistemas de formularios e informes para desarrollar aplicaciones de gestión.</descripcion>
+            </unidad>
+            <unidad>
+                <num>04</num>
+                <titulo>Realización de consultas</titulo>
+                <descripcion>En esta unidad, los estudiantes aprenden a realizar consultas, analizando y evaluando su alcance, para gestionar la información almacenada en sistemas ERP/CRM.</descripcion>
+            </unidad>
+        </contenido>
+    </modulo>
+    <modulo>
+        <nombre>Programación</nombre>
+        <contenido>
+            <unidad>
+                <num>01</num>
+                <titulo>Introducción a la programación</titulo>
+                <descripcion>Esta unidad proporciona una introducción a los conceptos básicos de la programación, incluyendo la estructura de un programa informático y cómo reconocer y relacionar los elementos propios del lenguaje de programación utilizado.</descripcion>
+            </unidad>
+            <unidad>
+                <num>02</num>
+                <titulo>Uso de estructuras de control</titulo>
+                <descripcion>En esta unidad, los estudiantes aprenden sobre las estructuras de control en la programación, como bucles y condicionales.</descripcion>
+            </unidad>
+            <unidad>
+                <num>03</num>
+                <titulo>Utilización de objetos</titulo>
+                <descripcion>Esta unidad cubre los fundamentos de la programación orientada a objetos, incluyendo la definición de clases y objetos, la interacción entre objetos, y el uso de métodos y propiedades de los objetos.</descripcion>
+            </unidad>
+            <unidad>
+                <num>04</num>
+                <titulo>Desarrollo de clases</titulo>
+                <descripcion>En esta unidad, los estudiantes aprenden a desarrollar programas organizados en clases, analizando y aplicando los principios de la programación orientada a objetos. Esto incluye la declaración de clases, la estructura y miembros de una clase, la encapsulación, control de acceso y visibilidad, y la utilización de los métodos y atributos de una clase.</descripcion>
+            </unidad>
+        </contenido>
+    </modulo>
+    <modulo>
+        <nombre>Entornos de Desarrollo</nombre>
+        <contenido>
+            <unidad>
+                <num>01</num>
+                <titulo>Introducción a los entornos de desarrollo</titulo>
+                <descripcion>Esta unidad proporciona una introducción a los entornos de desarrollo, explicando qué son, cómo funcionan y por qué son importantes en el desarrollo de software.</descripcion>
+            </unidad>
+            <unidad>
+                <num>02</num>
+                <titulo>Configuración de entornos de desarrollo</titulo>
+                <descripcion>En esta unidad, los estudiantes aprenden a configurar entornos de desarrollo, incluyendo la instalación y configuración de herramientas y librerías necesarias para el desarrollo de aplicaciones.</descripcion>
+            </unidad>
+            <unidad>
+                <num>03</num>
+                <titulo>Uso de entornos de desarrollo</titulo>
+                <descripcion>Esta unidad cubre cómo utilizar los entornos de desarrollo, incluyendo la escritura, prueba y depuración de código, así como la colaboración y el control de versiones.</descripcion>
+            </unidad>
+            <unidad>
+                <num>04</num>
+                <titulo>Implementación de aplicaciones en entornos de desarrollo</titulo>
+                <descripcion> En esta unidad, los estudiantes aprenden a implementar aplicaciones en entornos de desarrollo, incluyendo la preparación de aplicaciones para la producción y la gestión de la calidad del software.</descripcion>
+            </unidad>
+        </contenido>
+    </modulo>
+   
+    <modulo>
+        <nombre>Formación y Orientación Laboral</nombre>
+        <contenido>
+            <unidad>
+                <num>01</num>
+                <titulo>Derecho del Trabajo</titulo>
+                <descripcion>Esta unidad cubre los aspectos legales relacionados con el trabajo, incluyendo los derechos y obligaciones de los empleadores y empleados, y los aspectos legales de los contratos de trabajo.</descripcion>
+            </unidad>
+            <unidad>
+                <num>02</num>
+                <titulo>Seguridad Social y Desempleo</titulo>
+                <descripcion>En esta unidad, los estudiantes aprenden sobre la Seguridad Social, los derechos de los trabajadores en caso de desempleo, y cómo se maneja la situación de desempleo en España.</descripcion>
+            </unidad>
+            <unidad>
+                <num>03</num>
+                <titulo>Prevención de Riesgos Laborales</titulo>
+                <descripcion>Esta unidad cubre los conceptos básicos de la prevención de riesgos laborales, los factores de riesgo y cómo prevenirlos, y la legislación y organización relacionadas con la prevención de riesgos laborales.</descripcion>
+            </unidad>
+            <unidad>
+                <num>04</num>
+                <titulo>Orientación Laboral</titulo>
+                <descripcion>En esta unidad, los estudiantes aprenden sobre la orientación laboral, incluyendo cómo buscar empleo, cómo prepararse para una entrevista de trabajo, y cómo prepararse para el primer día de trabajo.</descripcion>
+            </unidad>
+        </contenido>
+    </modulo>
+ 
+</modulos>
