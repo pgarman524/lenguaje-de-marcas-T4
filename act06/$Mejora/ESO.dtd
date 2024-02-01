@@ -1,0 +1,13 @@
+<!ELEMENT modulos (asignaturas)>
+<!ATTLIST modulos SYSTEM ID #REQUIRED>
+
+<!ELEMENT asignaturas (asignatura*)>
+
+<!ELEMENT asignatura (unidad*)>
+<!ATTLIST asignatura nombre CDATA #REQUIRED>
+
+<!ELEMENT unidad (tema, titulo, descripcion)>
+
+<!ELEMENT tema (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>

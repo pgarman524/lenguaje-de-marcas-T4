@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE asignaturas SYSTEM "ESO.dtd">
+    <asignaturas>
+        <asignatura nombre="Matemáticas A">
+            <unidad>
+                <tema>01</tema>
+                <titulo>Números naturales y enteros</titulo>
+                <descripcion>Este tema se enfoca en los conceptos básicos de los números naturales
+                    (todos los números positivos enteros), incluyendo sus propiedades y operaciones
+                    básicas.</descripcion>
+            </unidad>
+            <unidad>
+                <tema>02</tema>
+                <titulo>Potencias y raíces</titulo>
+                <descripcion>Se estudian las operaciones de elevar un número a una potencia (por
+                    ejemplo, 2^3 = 8) y cómo encontrar la raíz de un número (por ejemplo, la raíz
+                    cuadrada de 9 es 3).</descripcion>
+            </unidad>
+            <unidad>
+                <tema>03</tema>
+                <titulo>Proporcionalidades</titulo>
+                <descripcion>Este tema se ocupa de las relaciones de proporcionalidad entre
+                    variables, donde una variable cambia en relación directa con otra.</descripcion>
+            </unidad>
+            <unidad>
+                <tema>04</tema>
+                <titulo>Geometría análitica</titulo>
+                <descripcion>Se introducen conceptos como puntos, líneas, ángulos, y figuras
+                    geométricas, y se aprenden a representarlas en un plano bidimensional.</descripcion>
+            </unidad>
+        </asignatura>
+
+        <asignatura nombre="Biología y Geología">
+            <unidad>
+                <tema>01</tema>
+                <titulo>La célula</titulo>
+                <descripcion>Este tema abarca el estudio de las células, tanto procariotas como
+                    eucariotas, sus orgánulos y cómo funcionan. Se explora la estructura y
+                    composición de las células, así como su importancia en los organismos vivos</descripcion>
+            </unidad>
+            <unidad>
+                <tema>02</tema>
+                <titulo>Origen y evolución de los seres vivos</titulo>
+                <descripcion>Este tema se centra en el proceso de evolución de los seres vivos desde
+                    sus primeros antepasados hasta la diversidad de especies actuales. Se estudian
+                    los mecanismos de herencia y adaptación que han permitido la evolución de la
+                    vida</descripcion>
+            </unidad>
+            <unidad>
+                <tema>03</tema>
+                <titulo>Los ecosistemas</titulo>
+                <descripcion>Se estudian los diferentes tipos de ecosistemas, como los ecosistemas
+                    acuáticos, terrestres y urbanos, y cómo interactúan entre sí. Se examina la
+                    estructura y dinámica de los ecosistemas, así como su importancia para la vida
+                    en la Tierra</descripcion>
+            </unidad>
+            <unidad>
+                <tema>04</tema>
+                <titulo>Recursos e impactos ambientales</titulo>
+                <descripcion>Este tema se centra en la relación entre los seres humanos y el medio
+                    ambiente. Se estudian los recursos naturales disponibles, su utilización y
+                    gestión, así como los impactos ambientales causados por la actividad humana. Se
+                    abordan temas como la contaminación atmosférica, acústica y lumínica, la
+                    contaminación del agua, la contaminación del suelo y los principales problemas
+                    medioambientales</descripcion>
+            </unidad>
+        </asignatura>
+
+        <asignatura nombre="Geografía e Historia">
+            <unidad>
+                <tema>01</tema>
+                <titulo>La Ilustración</titulo>
+                <descripcion>Este tema se centra en el movimiento intelectual e ideológico conocido
+                    como la Ilustración, que tuvo lugar durante el siglo XVIII en Europa. Se
+                    estudian las ideas y valores de este periodo, como la igualdad, la libertad y el
+                    progreso, y los pensadores destacados de la época.</descripcion>
+            </unidad>
+            <unidad>
+                <tema>02</tema>
+                <titulo>La Independencia de Estados Unidos</titulo>
+                <descripcion>Se examina el proceso de independencia de Estados Unidos, desde sus
+                    antecedentes y conflictos hasta la proclamación de la independencia. Se estudian
+                    los roles del poder legislativo, ejecutivo y judicial durante este periodo.</descripcion>
+            </unidad>
+            <unidad>
+                <tema>03</tema>
+                <titulo>La Industrialización en España</titulo>
+                <descripcion>Este tema se centra en el cambio social y económico que se produjo en
+                    España durante el siglo XIX, conocido como la Revolución Industrial. Se estudian
+                    aspectos como la población, la agricultura, los principales sectores
+                    industriales y otros sectores económicos.</descripcion>
+            </unidad>
+            <unidad>
+                <tema>04</tema>
+                <titulo>La Guerra Civil Española</titulo>
+                <descripcion>Se estudia el conflicto civil que tuvo lugar en España entre 1936 y
+                    1939. Se examinan las causas de la guerra, el estallido de la misma, la
+                    internacionalización del conflicto, y las consecuencias de la guerra, incluyendo
+                    pérdidas demográficas y económicas, destrucción de infraestructuras y vías de
+                    comunicación, y la pérdida de la democracia y las libertades políticas.</descripcion>
+            </unidad>
+        </asignatura>
+
+        <asignatura nombre="Lengua Castellana y Literatura">
+            <unidad>
+                <tema>01</tema>
+                <titulo>Comunicación</titulo>
+                <descripcion>En este tema se estudian los diferentes tipos de texto y sus
+                    características, las lenguas de España, y las competencias ortográficas y
+                    gramaticales</descripcion>
+            </unidad>
+            <unidad>
+                <tema>02</tema>
+                <titulo>Morfología y Gramática</titulo>
+                <descripcion>Se estudia el Sintagma Nominal y el Sintagma Verbal, los tipos de
+                    oraciones y análisis sintáctico de oraciones compuestas. Además de secciones
+                    destinadas en cada tema a la ortografía, gramática y vocabulario</descripcion>
+            </unidad>
+            <unidad>
+                <tema>03</tema>
+                <titulo>Literatura del XIX y principios del XX</titulo>
+                <descripcion>Se estudia literatura del XIX y principios del XX, incluyendo el
+                    Romanticismo y el Realismo y Naturalismo</descripcion>
+            </unidad>
+            <unidad>
+                <tema>04</tema>
+                <titulo>Literatura de la primera mitad del XX y de la segunda mitad del XX</titulo>
+                <descripcion>Este tema se centra en la literatura producida durante la primera y
+                    segunda mitad del siglo XX, incluyendo el Modernismo y Generación del 98</descripcion>
+            </unidad>
+        </asignatura>
+
+        <asignatura nombre="Lengua extranjera">
+        <unidad>
+            <tema>01</tema>
+            <titulo>Introducción a la lengua extranjera</titulo>
+            <descripcion>Este tema se centra en la presentación de la lengua extranjera que se
+                va a estudiar, su origen y su uso en el mundo. Se estudian aspectos como la
+                pronunciación, la escritura y la gramática básica.</descripcion>
+        </unidad>
+        <unidad>
+            <tema>02</tema>
+            <titulo>Frases y expresiones cotidianas</titulo>
+            <descripcion>Se estudian las frases y expresiones que se utilizan de forma regular
+                en situaciones cotidianas. Se practican las habilidades de escucha, comprensión
+                y producción oral.</descripcion>
+        </unidad>
+        <unidad>
+            <tema>03</tema>
+            <titulo>Leer y escribir</titulo>
+            <descripcion>Se estudian las técnicas de lectura y escritura en la lengua
+                extranjera, incluyendo la comprensión de textos y la creación de textos propios.
+                Se practican las habilidades de lectura y escritura</descripcion>
+        </unidad>
+        <unidad>
+            <tema>04</tema>
+            <titulo>Expresión oral</titulo>
+            <descripcion>Se estudian las técnicas para la expresión oral en la lengua
+                extranjera. Se practican las habilidades de escucha, comprensión, producción
+                oral y participación en conversaciones</descripcion>
+        </unidad>
+
+        </asignatura>
+
+        <asignatura nombre="Latín">
+            <unidad>
+                <tema>01</tema>
+                <titulo>Introducción al latín</titulo>
+                <descripion>Este tema puede incluir una introducción a la lengua latina, su origen y
+                    su
+                    uso histórico.</descripion>
+            </unidad>
+            <unidad>
+                <tema>02</tema>
+                <titulo>Vocabulario y gramática básica</titulo>
+                <descripion>En este tema, se estudiarían los conceptos básicos de la gramática
+                    latina y
+                    se aprendería un conjunto de palabras y frases básicas.</descripion>
+            </unidad>
+            <unidad>
+                <tema>03</tema>
+                <titulo>Textos latinos clásicos</titulo>
+                <descripion>Se podría leer y analizar textos latinos clásicos, como fragmentos de
+                    las
+                    obras de Virgilio o Cicerón.</descripion>
+            </unidad>
+            <unidad>
+                <tema>04</tema>
+                <titulo>Redacción y traducción</titulo>
+                <descripion>Finalmente, se podría practicar la redacción de textos latinos y la
+                    traducción de textos latinos a español y viceversa.</descripion>
+             </unidad>
+         </asignatura> 
+     </asignaturas>

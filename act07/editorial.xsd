@@ -1,0 +1,136 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="editorial">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="descripcion"/>
+        <xs:element type="xs:string" name="fecha"/>
+        <xs:element name="region">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="norte">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="trimestres">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="trimestre1">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="librosVendidos"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="trimestre2">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="librosVendidos"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="trimestre3">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="librosVendidos"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="trimestre4">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="librosVendidos"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="centro">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="trimestres">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="trimestre1">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="librosVendidos"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="trimestre2">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="librosVendidos"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="trimestre3">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="librosVendidos"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="trimestre4">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="librosVendidos"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="sur">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="trimestres">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="trimestre1">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="librosVendidos"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="trimestre2">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="librosVendidos"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="trimestre3">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="librosVendidos"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="trimestre4">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="librosVendidos"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
