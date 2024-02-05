@@ -1,0 +1,67 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "mensajes": {
+        "type": "object",
+        "properties": {
+          "m_pablo": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "tlf": {
+                  "type": "number"
+                },
+                "fecha": {
+                  "type": "string"
+                },
+                "hora": {
+                  "type": "string"
+                },
+                "contenido": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "tlf",
+                "fecha",
+                "hora",
+                "contenido"
+              ]
+            }
+          },
+          "m_roberto": {
+            "type": "object",
+            "properties": {
+              "tlf": {
+                "type": "number"
+              },
+              "fecha": {
+                "type": "string"
+              },
+              "hora": {
+                "type": "string"
+              },
+              "contenido": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "tlf",
+              "fecha",
+              "hora",
+              "contenido"
+            ]
+          }
+        },
+        "required": [
+          "m_pablo",
+          "m_roberto"
+        ]
+      }
+    },
+    "required": [
+      "mensajes"
+    ]
+  }

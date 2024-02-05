@@ -1,0 +1,80 @@
+{
+    "Sede": {
+      "Almacen": [
+        {
+          "cod_sede": 33,
+          "direccion1": "Calle falsa 123",
+          "direccion2": "",
+          "gerente": "ASA-808",
+          "fecha": "12/02/24",
+          "Seccion": [
+            {
+              "descripcion": "Salón",
+              "numero": 2,
+              "producto": [
+                {
+                  "coste": 189,
+                  "resumen": "KIVIK",
+                  "plazo": 12
+                },
+                {
+                  "coste": 99.99,
+                  "resumen": "STRANDMON",
+                  "plazo": 3
+                }
+              ]
+            },
+            {
+              "descripcion": "Cocina",
+              "numero": 4,
+              "producto": [
+                {
+                  "coste": 405,
+                  "resumen": "KNOXHULT",
+                  "plazo": 12
+                },
+                {
+                  "coste": 59,
+                  "resumen": "EKEDALEN",
+                  "plazo": 0
+                },
+                {
+                  "coste": 59,
+                  "resumen": "EKEDALEN",
+                  "plazo": 0
+                },
+                {
+                  "coste": 69,
+                  "resumen": "KNOXHULT",
+                  "plazo": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cod_sede": 45,
+          "direccion1": "Calle no tan falsa 123",
+          "direccion2": "",
+          "gerente": "CAS-128",
+          "fecha": "25/02/24",
+          "Seccion": {
+            "descripcion": "Dormitorio",
+            "numero": 2,
+            "producto": [
+              {
+                "coste": 586,
+                "resumen": "BRIMNES",
+                "plazo": 0
+              },
+              {
+                "coste": 656.98,
+                "resumen": "SONGESAND",
+                "plazo": 3
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }

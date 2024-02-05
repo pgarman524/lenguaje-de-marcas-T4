@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "Clientes": {
+      "type": "object",
+      "properties": {
+        "sede": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "cod_sede": {
+                "type": "string"
+              },
+              "direccion1": {
+                "type": "string"
+              },
+              "direccion2": {
+                "type": "string"
+              },
+              "empleado": {
+                "type": "string"
+              },
+              "fecha": {
+                "type": "string"
+              },
+              "clientela": {}
+            },
+            "required": [
+              "cod_sede",
+              "direccion1",
+              "direccion2",
+              "empleado",
+              "fecha",
+              "clientela"
+            ]
+          }
+        }
+      },
+      "required": [
+        "sede"
+      ]
+    }
+  },
+  "required": [
+    "Clientes"
+  ]
+}

@@ -1,0 +1,224 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "franquicia": {
+        "type": "object",
+        "properties": {
+          "descripcion": {
+            "type": "string"
+          },
+          "fecha": {
+            "type": "string"
+          },
+          "barrio": {
+            "type": "object",
+            "properties": {
+              "laMacarena": {
+                "type": "object",
+                "properties": {
+                  "trimestres": {
+                    "type": "object",
+                    "properties": {
+                      "trimestre1": {
+                        "type": "object",
+                        "properties": {
+                          "beneficios": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "beneficios"
+                        ]
+                      },
+                      "trimestre2": {
+                        "type": "object",
+                        "properties": {
+                          "beneficios": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "beneficios"
+                        ]
+                      },
+                      "trimestre3": {
+                        "type": "object",
+                        "properties": {
+                          "beneficios": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "beneficios"
+                        ]
+                      },
+                      "trimestre4": {
+                        "type": "object",
+                        "properties": {
+                          "beneficios": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "beneficios"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "trimestre1",
+                      "trimestre2",
+                      "trimestre3",
+                      "trimestre4"
+                    ]
+                  }
+                },
+                "required": [
+                  "trimestres"
+                ]
+              },
+              "pajaritos": {
+                "type": "object",
+                "properties": {
+                  "trimestres": {
+                    "type": "object",
+                    "properties": {
+                      "trimestre1": {
+                        "type": "object",
+                        "properties": {
+                          "beneficios": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "beneficios"
+                        ]
+                      },
+                      "trimestre2": {
+                        "type": "object",
+                        "properties": {
+                          "beneficios": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "beneficios"
+                        ]
+                      },
+                      "trimestre3": {
+                        "type": "object",
+                        "properties": {
+                          "beneficios": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "beneficios"
+                        ]
+                      },
+                      "trimestre4": {
+                        "type": "object",
+                        "properties": {
+                          "beneficios": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "beneficios"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "trimestre1",
+                      "trimestre2",
+                      "trimestre3",
+                      "trimestre4"
+                    ]
+                  }
+                },
+                "required": [
+                  "trimestres"
+                ]
+              },
+              "albaicin": {
+                "type": "object",
+                "properties": {
+                  "trimestres": {
+                    "type": "object",
+                    "properties": {
+                      "trimestre1": {
+                        "type": "object",
+                        "properties": {
+                          "beneficios": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "beneficios"
+                        ]
+                      },
+                      "trimestre2": {
+                        "type": "object",
+                        "properties": {
+                          "beneficios": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "beneficios"
+                        ]
+                      },
+                      "trimestre3": {
+                        "type": "object",
+                        "properties": {
+                          "beneficios": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "beneficios"
+                        ]
+                      },
+                      "trimestre4": {
+                        "type": "object",
+                        "properties": {
+                          "beneficios": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "beneficios"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "trimestre1",
+                      "trimestre2",
+                      "trimestre3",
+                      "trimestre4"
+                    ]
+                  }
+                },
+                "required": [
+                  "trimestres"
+                ]
+              }
+            },
+            "required": [
+              "laMacarena",
+              "pajaritos",
+              "albaicin"
+            ]
+          }
+        },
+        "required": [
+          "descripcion",
+          "fecha",
+          "barrio"
+        ]
+      }
+    },
+    "required": [
+      "franquicia"
+    ]
+  }

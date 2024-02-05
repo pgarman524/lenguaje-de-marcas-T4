@@ -1,0 +1,13 @@
+{
+    "Mueble": {
+      "mueble": {
+        "cod_mueble": "004.729.62",
+        "tipo": "sofas",
+        "modelo": "BOLLSTANÄS",
+        "num_almacen": 5700,
+        "dificultad_ensamblaje": "easy",
+        "materiales": "poliester",
+        "lugar_uso": "salon"
+      }
+    }
+  }

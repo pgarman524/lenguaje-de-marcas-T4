@@ -1,0 +1,52 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "Concesionario": {
+        "type": "object",
+        "properties": {
+          "concesionario": {
+            "type": "object",
+            "properties": {
+              "cod_coche": {
+                "type": "number"
+              },
+              "marca": {
+                "type": "string"
+              },
+              "modelo": {
+                "type": "string"
+              },
+              "matricula": {
+                "type": "number"
+              },
+              "potencia": {
+                "type": "string"
+              },
+              "plazas": {
+                "type": "number"
+              },
+              "num_puertas": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "cod_coche",
+              "marca",
+              "modelo",
+              "matricula",
+              "potencia",
+              "plazas",
+              "num_puertas"
+            ]
+          }
+        },
+        "required": [
+          "concesionario"
+        ]
+      }
+    },
+    "required": [
+      "Concesionario"
+    ]
+  }

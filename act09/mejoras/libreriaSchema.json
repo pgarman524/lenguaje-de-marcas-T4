@@ -1,0 +1,49 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "Libreria": {
+        "type": "object",
+        "properties": {
+          "libro": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "ISBN": {
+                  "type": "number"
+                },
+                "titulo": {
+                  "type": "string"
+                },
+                "autor": {
+                  "type": "string"
+                },
+                "disponible": {
+                  "type": "string"
+                },
+                "notas": {
+                  "type": "string"
+                },
+                "descripcion": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ISBN",
+                "titulo",
+                "autor",
+                "disponible"
+              ]
+            }
+          }
+        },
+        "required": [
+          "libro"
+        ]
+      }
+    },
+    "required": [
+      "Libreria"
+    ]
+  }

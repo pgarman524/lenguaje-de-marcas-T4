@@ -1,0 +1,56 @@
+{
+    "franquicia": {
+      "descripcion": "Informe de beneficios de las franquicias alojadas en distintos barrios de la ciudad",
+      "fecha": "12/05/2019",
+      "barrio": {
+        "laMacarena": {
+          "trimestres": {
+            "trimestre1": {
+              "beneficios": 14995
+            },
+            "trimestre2": {
+              "beneficios": 17889
+            },
+            "trimestre3": {
+              "beneficios": 10040
+            },
+            "trimestre4": {
+              "beneficios": 5023
+            }
+          }
+        },
+        "pajaritos": {
+          "trimestres": {
+            "trimestre1": {
+              "beneficios": 45689
+            },
+            "trimestre2": {
+              "beneficios": 21389
+            },
+            "trimestre3": {
+              "beneficios": 35241
+            },
+            "trimestre4": {
+              "beneficios": 27563
+            }
+          }
+        },
+        "albaicin": {
+          "trimestres": {
+            "trimestre1": {
+              "beneficios": 1020
+            },
+            "trimestre2": {
+              "beneficios": 2040
+            },
+            "trimestre3": {
+              "beneficios": 1234
+            },
+            "trimestre4": {
+              "beneficios": 789
+            }
+          }
+        }
+      }
+    }
+  }

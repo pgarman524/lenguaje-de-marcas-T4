@@ -1,0 +1,13 @@
+{
+    "Concesionario": {
+      "concesionario": {
+        "cod_coche": 2511600956,
+        "marca": "CITROEN",
+        "modelo": "C3 Aircross PureTech",
+        "matricula": 567489120,
+        "potencia": "110CV",
+        "plazas": 5,
+        "num_puertas": 4
+      }
+    }
+  }

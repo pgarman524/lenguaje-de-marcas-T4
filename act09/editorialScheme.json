@@ -1,0 +1,224 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "editorial": {
+        "type": "object",
+        "properties": {
+          "descripcion": {
+            "type": "string"
+          },
+          "fecha": {
+            "type": "string"
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "norte": {
+                "type": "object",
+                "properties": {
+                  "trimestres": {
+                    "type": "object",
+                    "properties": {
+                      "trimestre1": {
+                        "type": "object",
+                        "properties": {
+                          "librosVendidos": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "librosVendidos"
+                        ]
+                      },
+                      "trimestre2": {
+                        "type": "object",
+                        "properties": {
+                          "librosVendidos": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "librosVendidos"
+                        ]
+                      },
+                      "trimestre3": {
+                        "type": "object",
+                        "properties": {
+                          "librosVendidos": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "librosVendidos"
+                        ]
+                      },
+                      "trimestre4": {
+                        "type": "object",
+                        "properties": {
+                          "librosVendidos": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "librosVendidos"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "trimestre1",
+                      "trimestre2",
+                      "trimestre3",
+                      "trimestre4"
+                    ]
+                  }
+                },
+                "required": [
+                  "trimestres"
+                ]
+              },
+              "centro": {
+                "type": "object",
+                "properties": {
+                  "trimestres": {
+                    "type": "object",
+                    "properties": {
+                      "trimestre1": {
+                        "type": "object",
+                        "properties": {
+                          "librosVendidos": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "librosVendidos"
+                        ]
+                      },
+                      "trimestre2": {
+                        "type": "object",
+                        "properties": {
+                          "librosVendidos": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "librosVendidos"
+                        ]
+                      },
+                      "trimestre3": {
+                        "type": "object",
+                        "properties": {
+                          "librosVendidos": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "librosVendidos"
+                        ]
+                      },
+                      "trimestre4": {
+                        "type": "object",
+                        "properties": {
+                          "librosVendidos": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "librosVendidos"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "trimestre1",
+                      "trimestre2",
+                      "trimestre3",
+                      "trimestre4"
+                    ]
+                  }
+                },
+                "required": [
+                  "trimestres"
+                ]
+              },
+              "sur": {
+                "type": "object",
+                "properties": {
+                  "trimestres": {
+                    "type": "object",
+                    "properties": {
+                      "trimestre1": {
+                        "type": "object",
+                        "properties": {
+                          "librosVendidos": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "librosVendidos"
+                        ]
+                      },
+                      "trimestre2": {
+                        "type": "object",
+                        "properties": {
+                          "librosVendidos": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "librosVendidos"
+                        ]
+                      },
+                      "trimestre3": {
+                        "type": "object",
+                        "properties": {
+                          "librosVendidos": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "librosVendidos"
+                        ]
+                      },
+                      "trimestre4": {
+                        "type": "object",
+                        "properties": {
+                          "librosVendidos": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "librosVendidos"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "trimestre1",
+                      "trimestre2",
+                      "trimestre3",
+                      "trimestre4"
+                    ]
+                  }
+                },
+                "required": [
+                  "trimestres"
+                ]
+              }
+            },
+            "required": [
+              "norte",
+              "centro",
+              "sur"
+            ]
+          }
+        },
+        "required": [
+          "descripcion",
+          "fecha",
+          "region"
+        ]
+      }
+    },
+    "required": [
+      "editorial"
+    ]
+  }

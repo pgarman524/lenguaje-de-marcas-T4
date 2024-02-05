@@ -1,0 +1,49 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "Sede": {
+        "type": "object",
+        "properties": {
+          "Almacen": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "cod_sede": {
+                  "type": "number"
+                },
+                "direccion1": {
+                  "type": "string"
+                },
+                "direccion2": {
+                  "type": "string"
+                },
+                "gerente": {
+                  "type": "string"
+                },
+                "fecha": {
+                  "type": "string"
+                },
+                "Seccion": {}
+              },
+              "required": [
+                "cod_sede",
+                "direccion1",
+                "direccion2",
+                "gerente",
+                "fecha",
+                "Seccion"
+              ]
+            }
+          }
+        },
+        "required": [
+          "Almacen"
+        ]
+      }
+    },
+    "required": [
+      "Sede"
+    ]
+  }

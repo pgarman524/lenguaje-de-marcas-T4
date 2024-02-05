@@ -1,0 +1,20 @@
+{
+    "Libreria": {
+      "libro": [
+        {
+          "ISBN": 1234567890,
+          "titulo": "EL Lazarillo de Tormes",
+          "autor": "none",
+          "disponible": "no",
+          "notas": "null"
+        },
+        {
+          "ISBN": 987654321,
+          "titulo": "Harry Potter",
+          "autor": "JK. Rowlin",
+          "disponible": "sí",
+          "descripcion": "Ta' perfe"
+        }
+      ]
+    }
+  }

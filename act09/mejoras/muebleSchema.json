@@ -1,0 +1,52 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "Mueble": {
+        "type": "object",
+        "properties": {
+          "mueble": {
+            "type": "object",
+            "properties": {
+              "cod_mueble": {
+                "type": "string"
+              },
+              "tipo": {
+                "type": "string"
+              },
+              "modelo": {
+                "type": "string"
+              },
+              "num_almacen": {
+                "type": "number"
+              },
+              "dificultad_ensamblaje": {
+                "type": "string"
+              },
+              "materiales": {
+                "type": "string"
+              },
+              "lugar_uso": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "cod_mueble",
+              "tipo",
+              "modelo",
+              "num_almacen",
+              "dificultad_ensamblaje",
+              "materiales",
+              "lugar_uso"
+            ]
+          }
+        },
+        "required": [
+          "mueble"
+        ]
+      }
+    },
+    "required": [
+      "Mueble"
+    ]
+  }

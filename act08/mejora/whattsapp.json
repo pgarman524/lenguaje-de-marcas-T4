@@ -1,0 +1,24 @@
+{
+    "mensajes": {
+      "m_pablo": [
+        {
+          "tlf": 123456789,
+          "fecha": "11/01/2024",
+          "hora": "12:00",
+          "contenido": "¿Qué hay que hacer para lenguaje de marcas?"
+        },
+        {
+          "tlf": 123456789,
+          "fecha": "11/01/2024",
+          "hora": "12:00",
+          "contenido": "manda webs..."
+        }
+      ],
+      "m_roberto": {
+        "tlf": 987654321,
+        "fecha": "12/01/2024",
+        "hora": "9:00",
+        "contenido": "Bro, me quedé dormido. No tengo ni idea"
+      }
+    }
+  }
