@@ -11,7 +11,9 @@ schema = {
     "type": "object",
     "properties": {
       "telefono": {
-        "type": "string"
+        "type": "string",
+      # Para que en el validador te de error si no es de tamaño 9 el teléfono.
+        "minLength":9
       },
       "fecha": {
         "type": "string"
@@ -28,6 +30,7 @@ schema = {
       "fecha",
       "hora",
       "mensaje"
+      
     ]
   }
 
