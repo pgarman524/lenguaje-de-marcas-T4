@@ -18,23 +18,33 @@ schema = {
                             "maximum":  999999999
                         },
                         "marca": {
-                            "type": "string"
+                            "type": "string",
+                            "minimum":  1,
+                            "maximum":  20                                                                    
                         },
                         "modelo": {
-                            "type": "string"
+                            "type": "string",
+                             "minimum":  1,
+                            "maximum":  30  
                         },
                         "matricula": {
                             "type": "string",
                             "pattern": "^[0-9]{8}[a-zA-Z]$"
                         },
                         "potencia": {
-                            "type": "string"
+                            "type": "string",
+                             "minimum":  1,
+                            "maximum":  20  
                         },
                         "plazas": {
-                            "type": "number"
+                            "type": "number",
+                             "minimum":  2,
+                            "maximum":  8  
                         },
                         "num_puertas": {
-                            "type": "number"
+                            "type": "number",
+                             "minimum":  2,
+                            "maximum":  8  
                         }
                     },
                     "required": [
