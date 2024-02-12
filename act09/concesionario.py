@@ -13,9 +13,8 @@ schema = {
                     "type": "object",
                     "properties": {
                         "cod_coche": {
-                            "type": "number",
-                            "minimum":  100000000,
-                            "maximum":  999999999
+                            "type": "string",
+                           "minLength":1
                         },
                         "marca": {
                             "type": "string",
@@ -73,7 +72,7 @@ archivo_json = '''
 {
     "Concesionario": {
         "concesionario": {
-            "cod_coche":  123456789,
+            "cod_coche": "" ,
             "marca": "CITROEN",
             "modelo": "C3 Aircross PureTech",
             "matricula": "56748912A",
