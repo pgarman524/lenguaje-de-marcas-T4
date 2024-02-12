@@ -17,19 +17,30 @@ schema = {
             "type": "object",
             "properties": {
               "cod_sede": {
-                "type": "string"
-              },
+                "type": "string",
+                        "minLength": 9,
+                        "maxLength": 9
+                      },
               "direccion1": {
-                "type": "string"
+                  "type": "string",
+                       "minLength": 1,
+                        "maxLength": 45
               },
               "direccion2": {
                 "type": "string"
+                ,
+                       "minLength": 1,
+                        "maxLength": 45
               },
               "empleado": {
                 "type": "string"
+                ,
+                       "minLength": 1,
+                        "maxLength": 45
               },
               "fecha": {
-                "type": "string"
+                "type": "string",
+               "pattern": "^\\d{2}-\\d{2}-\\d{4}$"
               },
               "clientela": {}
             },
@@ -61,11 +72,11 @@ archivo_json = '''
     "Clientes": {
       "sede": [
         {
-          "cod_sede": "",
+          "cod_sede": "123456789",
           "direccion1": "Calle falsa 123",
           "direccion2": "Calle no tan falsa 456",
-          "empleado": "",
-          "fecha": "12/02/24",
+          "empleado": "Juan Manuel Ruiz Ordoñez",
+          "fecha": "12-02-2024",
           "clientela": [
             {
               "descripcion": "solvente",
@@ -100,11 +111,11 @@ archivo_json = '''
           ]
         },
         {
-          "cod_sede": "",
+          "cod_sede": "987654321",
           "direccion1": "Calle falsa 123",
           "direccion2": "Calle no tan falsa 456",
-          "empleado": "",
-          "fecha": "16/05/14",
+          "empleado": "Juana Castro Delgado",
+          "fecha": "16-05-2014",
           "clientela": {
             "descripcion": "solvente",
             "numero": 1,

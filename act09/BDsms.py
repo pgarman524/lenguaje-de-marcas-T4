@@ -16,13 +16,18 @@ schema = {
         "minLength":9
       },
       "fecha": {
-        "type": "string"
+        "type": "string",
+      # Para añadir una restricción por patrón
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
       },
       "hora": {
         "type": "string"
       },
       "mensaje": {
-        "type": "string"
+        "type": "string",
+        #Añadir un min y max de palabras en el mensaje
+        "minLength": 10,
+        "maxLength":  500
       }
     },
     "required": [
