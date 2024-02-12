@@ -15,7 +15,8 @@ schema = {
               "type": "object",
               "properties": {
                 "nombre": {
-                  "type": "string"
+                  "type": "string",
+                  "maxLength":120
                 },
                 "contenido": {
                   "type": "object",
@@ -26,13 +27,17 @@ schema = {
                         "type": "object",
                         "properties": {
                           "num": {
-                            "type": "number"
+                            "type": "number",
+                              "minLength":1,
+                              "maxLength":20
                           },
                           "titulo": {
-                            "type": "string"
+                            "type": "string",
+                            "maxLength":120
                           },
                           "descripcion": {
-                            "type": "string"
+                            "type": "string",
+                            "maxLength":400
                           }
                         },
                         "required": [
