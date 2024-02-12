@@ -18,7 +18,7 @@ schema = {
       "fecha": {
         "type": "string",
       # Para añadir una restricción por patrón
-        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        "pattern": "^\\d{2}-\\d{2}-\\d{4}$"
       },
       "hora": {
         "type": "string"
@@ -46,19 +46,19 @@ archivo_json = '''
 [
     {
         "telefono": "955 55 66 55",
-        "fecha": "1/7/2011",
+        "fecha": "1-7-2011",
         "hora": "23:55",
         "mensaje": "Juego1: Tetris"
     },
     {
         "telefono": "745 15 56 11",
-        "fecha": "22/09/2011",
+        "fecha": "22-09-2011",
         "hora": "15:05",
         "mensaje": "Juego2: Arcanoid"
     },
     {
         "telefono": "842 35 22 00",
-        "fecha": "10/11/2011",
+        "fecha": "10-11-2011",
         "hora": "09:22",
         "mensaje": "Juego3: Comecocos"
     }
